@@ -10,9 +10,9 @@
     <title>Ilyes Archviz — Interior Architecture</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@1,6..72,300&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css?v=4" />
-    <script src="script.js?v=4" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css?v=5" />
+    <script src="script.js?v=5" defer></script>
   </head>
   <body>
     <div class="loader" aria-hidden="true">
@@ -53,6 +53,12 @@
         <div class="hero-media" aria-hidden="true">
           <img src="https://images.unsplash.com/photo-1767720580810-58be50f89bf8?auto=format&fit=crop&q=84&w=2400" srcset="https://images.unsplash.com/photo-1767720580810-58be50f89bf8?auto=format&fit=crop&q=80&w=900 900w, https://images.unsplash.com/photo-1767720580810-58be50f89bf8?auto=format&fit=crop&q=84&w=1600 1600w, https://images.unsplash.com/photo-1767720580810-58be50f89bf8?auto=format&fit=crop&q=84&w=2400 2400w" sizes="100vw" alt="" fetchpriority="high" />
         </div>
+        <svg class="hero-vector" viewBox="0 0 520 520" aria-hidden="true">
+          <circle cx="260" cy="260" r="205"></circle>
+          <path d="M54 324c105-32 196-112 248-226M135 464c18-141 127-272 304-337"></path>
+          <circle class="vector-dot" cx="439" cy="127" r="6"></circle>
+          <circle class="vector-dot" cx="54" cy="324" r="6"></circle>
+        </svg>
         <div class="hero-content">
           <p class="overline"><span>Interior architecture</span><span>Algiers · Worldwide</span></p>
           <h1><span>Right materials.</span><em>Right space.</em></h1>
@@ -66,7 +72,7 @@
       </section>
 
       <section class="philosophy" id="philosophy">
-        <div class="section-label reveal"><span>01</span><p>Philosophy</p></div>
+        <div class="section-label reveal"><span>01</span><p>Philosophy</p><svg class="label-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19"></path><circle cx="12" cy="12" r="3"></circle></svg></div>
         <div class="philosophy-copy">
           <p class="side-note reveal">Nothing arbitrary.<br />Nothing excessive.</p>
           <h2 class="reveal">A space feels right when<br />material, light and proportion<br />speak the <em>same language.</em></h2>
@@ -78,7 +84,7 @@
 
       <section class="work" id="work">
         <div class="work-heading">
-          <div class="section-label section-label-light reveal"><span>02</span><p>Selected work</p></div>
+          <div class="section-label section-label-light reveal"><span>02</span><p>Selected work</p><svg class="label-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19"></path><circle cx="12" cy="12" r="3"></circle></svg></div>
           <h2 class="reveal">Spaces with<br /><em>something to say.</em></h2>
           <p class="reveal">Residential and intimate hospitality environments shaped from the inside out.</p>
         </div>
@@ -132,22 +138,38 @@
         <div class="material-grid">
           <div class="material-intro reveal"><p>Materials are never decoration.</p><h2>They are the<br /><em>atmosphere.</em></h2></div>
           <div class="material-list">
-            <article class="reveal"><span>01</span><h3>Stone</h3><p>Weight · Permanence</p></article>
-            <article class="reveal"><span>02</span><h3>Wood</h3><p>Warmth · Rhythm</p></article>
-            <article class="reveal"><span>03</span><h3>Plaster</h3><p>Softness · Light</p></article>
-            <article class="reveal"><span>04</span><h3>Textile</h3><p>Touch · Quiet</p></article>
+            <article class="reveal">
+              <span>01</span>
+              <svg class="material-icon" viewBox="0 0 100 100" aria-hidden="true"><path d="M20 70 12 40l20-25 37 5 19 29-13 35-39 5Z"></path><path d="m28 68-5-25 16-17 27 4 11 20-11 24-28 5Z"></path><path d="m42 39 14-2 8 12-7 15-16 2-8-12Z"></path></svg>
+              <h3>Stone</h3><p>Weight · Permanence</p>
+            </article>
+            <article class="reveal">
+              <span>02</span>
+              <svg class="material-icon" viewBox="0 0 100 100" aria-hidden="true"><ellipse cx="50" cy="50" rx="39" ry="30"></ellipse><ellipse cx="50" cy="50" rx="28" ry="21"></ellipse><ellipse cx="50" cy="50" rx="15" ry="11"></ellipse><path d="M50 19c-7 13-8 47 2 62M25 30c17 9 37 12 59 5"></path></svg>
+              <h3>Wood</h3><p>Warmth · Rhythm</p>
+            </article>
+            <article class="reveal">
+              <span>03</span>
+              <svg class="material-icon" viewBox="0 0 100 100" aria-hidden="true"><path d="M12 29c18-13 28 9 46-2s23-7 31 0M12 48c17-13 30 8 48-3s24-5 29 1M12 67c15-11 30 8 48-3s22-4 29 2"></path><path d="M17 81h67"></path></svg>
+              <h3>Plaster</h3><p>Softness · Light</p>
+            </article>
+            <article class="reveal">
+              <span>04</span>
+              <svg class="material-icon" viewBox="0 0 100 100" aria-hidden="true"><path d="M18 15v70M39 15v70M61 15v70M82 15v70M15 18h70M15 39h70M15 61h70M15 82h70"></path><path class="accent-path" d="M18 39h21v22h22V39h21"></path></svg>
+              <h3>Textile</h3><p>Touch · Quiet</p>
+            </article>
           </div>
         </div>
       </section>
 
       <section class="approach" id="approach">
-        <div class="section-label reveal"><span>03</span><p>Approach</p></div>
+        <div class="section-label reveal"><span>03</span><p>Approach</p><svg class="label-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19"></path><circle cx="12" cy="12" r="3"></circle></svg></div>
         <div class="approach-heading"><h2 class="reveal">From first instinct<br />to final <em>detail.</em></h2><p class="reveal">A close, considered process balancing intuition with precision. Every choice must earn its place.</p></div>
         <div class="steps">
-          <article class="step reveal"><span>01</span><h3>Listen</h3><p>We begin with your rituals, ambitions and the atmosphere you cannot yet name.</p><i>↘</i></article>
-          <article class="step reveal"><span>02</span><h3>Define</h3><p>A clear spatial concept aligns story, circulation, palette and light.</p><i>↘</i></article>
-          <article class="step reveal"><span>03</span><h3>Compose</h3><p>Materials, furniture and custom details become one complete language.</p><i>↘</i></article>
-          <article class="step reveal"><span>04</span><h3>Realise</h3><p>The vision is protected through documentation, sourcing and on-site refinement.</p><i>↘</i></article>
+          <article class="step reveal"><span>01</span><svg class="step-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M43 43c0 8-5 13-12 13-9 0-13-7-13-14 0-10 4-29 18-29 10 0 15 7 15 15 0 9-6 13-12 13-5 0-7-3-7-7 0-3 2-6 6-6 3 0 5 2 5 5"></path></svg><h3>Listen</h3><p>We begin with your rituals, ambitions and the atmosphere you cannot yet name.</p><i>↘</i></article>
+          <article class="step reveal"><span>02</span><svg class="step-icon" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="23"></circle><circle cx="32" cy="32" r="5"></circle><path d="m39 25-4 10-10 4 4-10Z"></path><path d="M32 4v8M32 52v8M4 32h8M52 32h8"></path></svg><h3>Define</h3><p>A clear spatial concept aligns story, circulation, palette and light.</p><i>↘</i></article>
+          <article class="step reveal"><span>03</span><svg class="step-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="m9 24 23-12 23 12-23 12Z"></path><path d="m9 34 23 12 23-12M9 44l23 12 23-12"></path></svg><h3>Compose</h3><p>Materials, furniture and custom details become one complete language.</p><i>↘</i></article>
+          <article class="step reveal"><span>04</span><svg class="step-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M10 54V10h44v44Z"></path><path d="M10 23h44M23 10v44M31 42l7 7 15-19"></path></svg><h3>Realise</h3><p>The vision is protected through documentation, sourcing and on-site refinement.</p><i>↘</i></article>
         </div>
       </section>
 
@@ -157,7 +179,7 @@
       </section>
 
       <section class="services">
-        <div class="section-label reveal"><span>04</span><p>Capabilities</p></div>
+        <div class="section-label reveal"><span>04</span><p>Capabilities</p><svg class="label-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19"></path><circle cx="12" cy="12" r="3"></circle></svg></div>
         <div class="service-list">
           <details open class="reveal"><summary><span>01</span><h3>Interior architecture</h3><i>+</i></summary><div><p>Spatial planning, material direction and technical design for considered residences and hospitality.</p><a href="#contact">Discuss a project ↗</a></div></details>
           <details class="reveal"><summary><span>02</span><h3>Furniture & objects</h3><i>+</i></summary><div><p>Bespoke pieces, collectible sourcing and complete furniture specifications with a unified material language.</p><a href="#contact">Discuss a project ↗</a></div></details>
@@ -166,7 +188,7 @@
       </section>
 
       <section class="contact" id="contact">
-        <p class="contact-kicker reveal">Have a space in mind?</p>
+        <p class="contact-kicker reveal"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 7h24v18H4Z"></path><path d="m5 9 11 9L27 9"></path></svg>Have a space in mind?</p>
         <h2 class="reveal">Let’s make it<br /><em>feel right.</em></h2>
         <form class="contact-form reveal">
           <label><span>Your name</span><input name="name" required placeholder="Name / Studio" /></label>
