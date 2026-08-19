@@ -82,7 +82,7 @@ em { font-family: var(--serif); font-weight: 300; }
 .hero-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg,rgba(28,24,20,.75),rgba(28,24,20,.15) 70%), linear-gradient(0deg,rgba(27,23,19,.5),transparent 48%); }
 .hero-vector { position: absolute; z-index: -1; top: 12%; right: -4vw; width: min(40vw,620px); fill: none; stroke: rgba(255,255,255,.3); stroke-width: 1; pointer-events: none; animation: vector-drift 18s ease-in-out infinite alternate; }
 .hero-vector .vector-dot { fill: #dcc3a6; stroke: none; }
-@keyframes vector-drift { to { transform: translate(-18px,22px) rotate(7deg); } }
+@keyframes vector-drift { to { transform: translate(-18px,22px) rotate(45deg); } }
 .hero-content { width: 100%; }
 .hero .overline { display: flex; gap: 50px; margin: 0 0 26px .5vw; color: rgba(255,249,239,.68); }
 .hero .overline span { display: inline-flex; align-items: center; gap: 8px; }
